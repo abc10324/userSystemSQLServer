@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+<!--   <Resource name="jdbc/UserDB" auth="Container" type="javax.sql.DataSource" -->
+<!--                maxTotal="100" maxIdle="30" maxWaitMillis="10000" -->
+<!--                username="sa" password="passw0rd" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" -->
+<!--                url="jdbc:sqlserver://localhost:1433;databaseName=UserSystem" /> -->
+  <Resource name="jdbc/UserDB" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="abc10324@abc10324" password="Abc9814016" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+               url="jdbc:sqlserver://abc10324.database.windows.net:1433;database=Task" />
+
+</Context>
